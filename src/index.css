@@ -131,8 +131,8 @@ body {
 
 .svg-container {
   margin-top: 1.5rem;
-  width: 60vw;
-  height: 50rem;
+  width: 50vw;
+  height: 36rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -333,41 +333,41 @@ body {
 }
 
 /* Images Proportion (877 * 679)*/
-#coronaTracker {
-  /* background-image: url("./images/projects/covid.png"); */
+/* #coronaTracker {
+  background-image: url("./images/projects/covid.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #shoeStore {
-  /* background-image: url("./images/projects/nike.png"); */
+  background-image: url("./images/projects/nike.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #quizApp {
-  /* background-image: url("./images/projects/quiz.png"); */
+  background-image: url("./images/projects/quiz.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #expenseTracker {
-  /* background-image: url("./images/projects/expense.png"); */
+  background-image: url("./images/projects/expense.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #matiari {
-  /* background-image: url("./images/projects/matiari.png"); */
+  background-image: url("./images/projects/matiari.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #spacexWebsite {
-  /* background-image: url("./images/projects/spacex.png"); */
+  background-image: url("./images/projects/spacex.png");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .project-links {
   display: flex;
@@ -444,41 +444,41 @@ body {
 }
 
 /* Images Proportion (877 * 679) */
-#reactBasic {
-  /* background-image: url("./images/certificates/ReactBasic\(HackerRank\).png"); */
+/* #reactBasic {
+  background-image: url("./images/certificates/ReactBasic\(HackerRank\).png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #html5 {
-  /* background-image: url("./images/certificates/html5.png"); */
+  background-image: url("./images/certificates/html5.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #git {
-  /* background-image: url("./images/certificates/Git.png"); */
+  background-image: url("./images/certificates/Git.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #ciscoPython {
-  /* background-image: url("./images/certificates/PCAP\ \(Certified\ Associate\ in\ Python\ Programming\).png"); */
+  background-image: url("./images/certificates/PCAP\ \(Certified\ Associate\ in\ Python\ Programming\).png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #specPython {
-  /* background-image: url("./images/certificates/specialization.png"); */
+  background-image: url("./images/certificates/specialization.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #smitPython {
-  /* background-image: url("./images/certificates/SMITPython.png"); */
+  background-image: url("./images/certificates/SMITPython.png");
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 /* Contact */
 .contact-container {
@@ -500,7 +500,7 @@ body {
   width: 170px;
   border: 1px solid black;
   border-radius: 50%;
-  /* background-image: url("./images/junaid.png"); */
+  background-image: url("./images/web-developer.png");
   background-size: cover;
   height: 170px;
 }

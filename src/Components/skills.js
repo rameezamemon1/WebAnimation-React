@@ -1,11 +1,44 @@
+import React from "react";
+import "../index.css";
 
-function Skills() {
-    return (
-      <div className="">
-      <h1>Skills</h1>
+const Skills = () => {
+  return (
+    <section
+      data-aos="fade-right"
+      className="skills-container"
+      name="skills"
+      id="skills"
+    >
+      <h1 className="heading">What I Am Good At &nbsp;&nbsp;?</h1>
+
+      <div className="techs">
+        <li>
+          <i className="fab html fa-html5"></i> <p>HTML5</p>
+        </li>
+        <li>
+          <i className="fab css fa-css3"></i>
+          <p>CSS3</p>
+        </li>
+       <li>
+          <i className="fab bootstrap fa-bootstrap"></i>
+          <p>Bootstrap</p>
+        </li>
+        <li>
+          <i className="fab javascript fa-js"></i>
+          <p>Javascript</p>
+        </li>
+        <li>
+          <i className="fab react fa-react"></i>
+          <p>ReactJs</p>
+        </li>
+        <li>
+          <i className="fab typescript fa-node"></i>
+          <p>NodeJs</p>
+        </li>
+          
       </div>
-    );
-  }
-  
-  export default Skills;
-  
+    </section>
+  );
+};
+
+export default Skills;

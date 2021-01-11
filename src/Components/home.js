@@ -129,6 +129,7 @@ Mern Stack Developer
         <button className="button" onClick={() => scroll.scrollToBottom()}>
           Contact Me
         </button>
+        
       </motion.div>
 
       <motion.div

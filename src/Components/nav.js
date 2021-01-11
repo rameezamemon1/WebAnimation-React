@@ -88,7 +88,7 @@ const Nav = () => {
           </Link>
         </li>
 
-        <li className="link">
+        {/* <li className="link">
           <Link
             className="anchor"
             activeClass="active"
@@ -101,9 +101,9 @@ const Nav = () => {
           >
             Portfolio
           </Link>
-        </li>
+        </li> */}
 
-        <li className="link">
+        {/* <li className="link">
           <Link
             className="anchor"
             activeClass="active"
@@ -116,7 +116,7 @@ const Nav = () => {
           >
             Achievements
           </Link>
-        </li>
+        </li> */}
 
         <li className="link">
           <Link

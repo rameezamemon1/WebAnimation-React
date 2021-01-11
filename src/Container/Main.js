@@ -21,11 +21,13 @@ function Main() {
       <div className="main-container">
           <Nav />
           <Home /> 
-          {/*
           <Services />
           <Skills />
-          <Portfolio />
           <Contact />
+
+          {/*
+         
+          <Portfolio />
           <Footer /> */}
       </div>
     );

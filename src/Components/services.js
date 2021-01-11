@@ -1,11 +1,47 @@
+import React from "react";
+import "../index.css";
+import m_15 from "./../images/m_15.svg";
+import m_24 from "./../images/m_24.svg";
+import react_redux from "./../images/react-redux.png";
+import mern_stack from "./../images/mern_stack.jpg";
 
-function Services() {
-    return (
-      <div className="">
-      <h1>Services</h1>
+const Services = () => {
+  return (
+    <section
+      data-aos="zoom-in"
+      className="services-container"
+      name="services"
+      id="services"
+    >
+      <h1 className="heading">Services I Provide</h1>
+      <div className="services-wrapper">
+        <div className="services">
+          <li>
+            <img src={m_15} alt="" />
+            <p>Web Design</p>
+          </li>
+        </div>
+        <div className="services">
+          <li>
+            <img src={m_24} alt="" />
+            <p>Web Development</p>
+          </li>
+        </div>
+        <div className="services">
+          <li>
+            <img src={react_redux} alt="" />
+            <p>React Development</p>
+          </li>
+        </div>  <div className="services">
+          <li>
+            <img src={mern_stack} alt="" />
+            <p>MERN Stack Development</p>
+          </li>
+        </div>
       </div>
-    );
-  }
-  
-  export default Services;
-  
+      
+    </section>
+  );
+};
+
+export default Services;
