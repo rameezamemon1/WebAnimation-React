@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../index.css";
 import { motion } from "framer-motion";
-import { animateSroll as scroll, Link } from "react-scroll";
+import { animateScroll as scroll, Link } from "react-scroll";
 
 const Nav = () => {
   const [navbar, setNavbar] = useState(false);
@@ -35,7 +35,7 @@ const Nav = () => {
       }}
     >
       <span className="logo" onClick={() => scroll.scrollToTop()}>
-        &lt; Dev-Rameeza /&gt;
+      &lt; Dev-Rameeza /&gt;
       </span>
       {/* Mobile Menu Icon */}
       <div className="menu-icon" onClick={handleClick}>
@@ -101,9 +101,9 @@ const Nav = () => {
           >
             Portfolio
           </Link>
-        </li> */}
+        </li>
 
-        {/* <li className="link">
+        <li className="link">
           <Link
             className="anchor"
             activeClass="active"
