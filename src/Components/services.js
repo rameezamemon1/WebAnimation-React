@@ -14,19 +14,8 @@ const Services = () => {
       id="services"
     >
       <h1 className="heading">Services I Provide</h1>
+         
       <div className="services-wrapper">
-        <div className="services">
-          <li>
-            <img src={m_15} alt="" />
-            <p>Web Design</p>
-          </li>
-        </div>
-        <div className="services">
-          <li>
-            <img src={m_24} alt="" />
-            <p>Web Development</p>
-          </li>
-        </div>
         <div className="services">
           <li>
             <img src={react_redux} alt="" />
