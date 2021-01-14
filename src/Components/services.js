@@ -19,12 +19,12 @@ const Services = () => {
         <div className="services">
           <li>
             <img src={react_redux} alt="" />
-            <p>React Development</p>
+            <p>ReactJs FrontEnd Development</p>
           </li>
         </div>  <div className="services">
           <li>
             <img src={mern_stack} alt="" />
-            <p>MERN Stack Development</p>
+            <p>MERN STACK Development</p>
           </li>
         </div>
       </div>
