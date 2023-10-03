@@ -1,37 +1,30 @@
-import React ,{useEffect} from 'react';
+import React, { useEffect } from 'react';
+
+import Aos from "aos";
 import Nav from '../Components/nav';
-import Contact from '../Components/contact';
 import Home from '../Components/home';
 import Skills from '../Components/skills';
-import Footer from '../Components/footer';
+import Contact from '../Components/contact';
 import Services from '../Components/services';
-import Portfolio from '../Components/portfolio';
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 import '../index.css'
-
-
+import "aos/dist/aos.css";
 
 function Main() {
   useEffect(() => {
     Aos.init({ duration: 2000, offset: 200 });
   }, []);
-    return (
-      <div className="main-container">
-          <Nav />
-          <Home /> 
-          <Services />
-          <Skills />
-          <Contact />
+  
+  return (
+    <div className="main-container">
+   
+      <Nav />
+      <Home />
+      <Services />
+      <Skills />
+      <Contact />
+    </div>
+  );
+}
 
-          {/*
-         
-          <Portfolio />
-          <Footer /> */}
-      </div>
-    );
-  }
-  
-  export default Main;
-  
+export default Main;

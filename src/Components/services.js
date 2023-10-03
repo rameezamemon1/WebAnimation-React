@@ -1,9 +1,30 @@
 import React from "react";
+import react from "./../images/react.png";
+import ecommerce from "./../images/ecommerce.jpg";
+import MERN from "./../images/mern.png";
 import "../index.css";
-import m_15 from "./../images/m_15.svg";
-import m_24 from "./../images/m_24.svg";
-import react_redux from "./../images/react-redux.png";
-import mern_stack from "./../images/mern_stack.jpg";
+
+const arr = [
+  {
+    image: react,
+    title: 'Frontend Development',
+    skills: ['HTML', 'CSS', 'React.js', 'Next.js', 'Material-UI', 'Chakra-UI', 'Firebase', 'Figma to React']
+
+  }, {
+    image: MERN,
+    title: 'MERN Stack Development',
+    skills: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Rest APIs', 'Stripe', 'Paypal']
+
+  }, , {
+    image: ecommerce,
+    title: 'Ecommerce Development',
+    skills: ['React.js', 'Javascript', 'Stripe', 'React-Admin', 'Strapi', 'Chart.js']
+  }, {
+    image: react,
+    title: 'E-commerce Product Customizers',
+    skills: ['Fabric.js', 'Html Canvas', 'Three.js', 'React.js', 'Javascript', 'Stripe']
+  }
+]
 
 const Services = () => {
   return (
@@ -14,21 +35,15 @@ const Services = () => {
       id="services"
     >
       <h1 className="heading">Services I Provide</h1>
-         
       <div className="services-wrapper">
-        <div className="services">
-          <li>
-            <img src={react_redux} alt="" />
-            <p>ReactJs FrontEnd Development</p>
-          </li>
-        </div>  <div className="services">
-          <li>
-            <img src={mern_stack} alt="" />
-            <p>MERN STACK Development</p>
-          </li>
-        </div>
+        {arr?.map((res, i) => {
+          return <div key={i} className="services">
+            <img src={res.image} alt="" />
+            <p>{res?.title}</p>
+            <div className="tags">{res?.skills?.map((skill) => { return <span>{skill}</span> })}</div>
+          </div>
+        })}
       </div>
-      
     </section>
   );
 };

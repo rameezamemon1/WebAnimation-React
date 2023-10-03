@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
-import '../index.css';
 import girl from "./../images/girl.svg";
-import { motion, AnimatePresence } from "framer-motion";
+
 import { animateScroll as scroll } from "react-scroll";
+import { motion } from "framer-motion";
+
+import '../index.css';
 
 const contentVariants = {
   initial: {
@@ -69,7 +71,6 @@ const Home = () => {
         initial="initial"
         animate="animate"
       >
-        <h4 className="welcome-content">WELCOME TO MY WORLD</h4>
         <br />
         <h1 className="main-content">
           Hi, I’m Rameeza
@@ -85,51 +86,13 @@ const Home = () => {
             </span>
           </motion.span>{" "}
         </h1>
-        {/* Animate Skill Content */}
+        <p className="welcome-content">I'm a MERN Stack Web Developer, I excel in creating extraordinary online experiences that harness the full potential of JavaScript's power and versatility.</p>
 
-        <div className="skill-animation">
-          <AnimatePresence>
-            {showHeadingOne && (
-              <motion.h2
-                className="skill-content"
-                variants={childrenVariants}
-                exit="exit"
-                animate="animate"
-                initial="initial"
-              >
-                Web Developer | React Developer
-              </motion.h2>
-            )}
-          </AnimatePresence>
-
-          <AnimatePresence>
-            {showHeadingTwo && (
-              <motion.h2
-                className="skill-content"
-                variants={childrenVariants}
-                exit="exit"
-                animate="animate"
-                initial="initial"
-              >
-Mern Stack Developer
-              </motion.h2>
-            )}
-          </AnimatePresence>
-        </div>
-        {/* // */}
-
-        <h1>
-          {" "}
-          from Pakistan{" "}
-          <span role="img" aria-label="Pakistan Flag">
-            🇵🇰
-          </span>
-        </h1>
 
         <button className="button" onClick={() => scroll.scrollToBottom()}>
           Contact Me
         </button>
-        
+
       </motion.div>
 
       <motion.div

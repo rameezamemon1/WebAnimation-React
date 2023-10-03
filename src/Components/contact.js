@@ -10,13 +10,15 @@ const Contact = () => {
       name="contact"
       id="contact"
     >
-      <div className="profile-image">
-
-      </div>
-      <h1 className="heading">Contact</h1>
-
       <div className="cards-container">
-        {/* Card 1 - Email */}
+        <h1 className="heading">Get In Touch</h1>
+        <p className="contact-text">Feel free to reach out to me anytime. I'm here to assist you, whether you have a question or simply want to say hello. I'll make sure to respond to you as promptly as possible!</p>
+
+        <button className="button">
+          Say Hello
+        </button>
+      </div>
+      {/* <div className="cards-container">
         <div className="cards">
           <div className="contact-icons">
             <i className="fas fa-envelope"></i>
@@ -29,7 +31,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Card 2 - Social Media */}
         <div className="cards">
           <div className="contact-icons">
             <i className="fas fa-globe"></i>
@@ -38,7 +39,6 @@ const Contact = () => {
             <span>Social Media</span>
           </div>
           <div className="contact-links">
-            {/* github */}
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -48,7 +48,6 @@ const Contact = () => {
               <i className="fab fa-github" title="github" id="github"></i>
             </a>
 
-            {/* facebook */}
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -57,7 +56,6 @@ const Contact = () => {
               <i className="fab fa-facebook" title="facebook" id="facebook"></i>
             </a>
 
-            {/* linkedIn */}
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -66,8 +64,6 @@ const Contact = () => {
               <i className="fab fa-linkedin" title="linkedin" id="linkedin"></i>
             </a>
 
-          
-            {/* Instagram */}
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -82,7 +78,7 @@ const Contact = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
     </section>
   );
 };
